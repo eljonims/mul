@@ -22,6 +22,10 @@ body{
 }
 #pantalla{
 	background:black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
 }
 #botonera{
 	background:gray;
@@ -37,6 +41,15 @@ body{
 	height:24%;
 	
 }
+#pregunta{
+	height:70%;
+	background: gray;
+	
+}
+#respuesta{
+	height:29%;
+	background: red;
+} 
 @media (orientation: portrait){
 	#pantalla{
 		width:100%;
